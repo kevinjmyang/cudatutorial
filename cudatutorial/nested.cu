@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <cuda_runtime.h>
-
-// Define CHECK macro to catch CUDA errors
 #define CHECK(call)                                                          \
 {                                                                            \
     const cudaError_t error = call;                                          \
